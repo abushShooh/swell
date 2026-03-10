@@ -824,4 +824,20 @@ main {
   .featuresLink {
     font-size: 18px;
   }
+
+  .footerTopLogos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 18px;
+    padding-bottom: 6px;
+    margin-bottom: 24px;
+  }
+
+  .footerTopLogos img {
+    flex: 0 0 auto;
+    width: 140px;
+    max-width: none;
+    object-position: center;
+  }
 }
