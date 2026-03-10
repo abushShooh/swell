@@ -5,6 +5,9 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+body{
+    background: #FFFDF4;
+}
 header {
   width: 100%;
   margin: auto;
@@ -119,6 +122,36 @@ main {
     margin: auto;
     display: block;
 }
+.mainFlex{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 32px 16px 0;
+}
+.contPos{
+    width: 50%;
+    text-align: center;
+}
+.contPos img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.contPos h2{
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.link{
+    color: #550088;
+    margin-top: 10px;
+}
 @media (max-width: 768px) {
   nav {
     max-width: 100%;
@@ -169,6 +202,21 @@ main {
 
   .containerImageMain img {
     max-width: 100%;
+  }
+
+  .mainFlex {
+    gap: 20px;
+    padding: 28px 16px 0;
+  }
+
+  .contPos h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .contPos p {
+    font-size: 16px;
+    line-height: 1.5;
   }
 }
 
@@ -236,5 +284,26 @@ main {
 
   .containerImageMain img {
     border-radius: 8px;
+  }
+
+  .mainFlex {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    padding: 22px 12px 0;
+  }
+
+  .contPos {
+    width: 100%;
+  }
+
+  .contPos h2 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+
+  .contPos p {
+    font-size: 15px;
+    line-height: 1.5;
   }
 }
