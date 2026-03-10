@@ -107,6 +107,18 @@ main {
     border: none;
     border-radius: 3px;
 }
+.containerImageMain{
+    width: 100%;
+    margin: auto;
+    padding: 24px 16px 0;
+}
+.containerImageMain img{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
 @media (max-width: 768px) {
   nav {
     max-width: 100%;
@@ -149,6 +161,14 @@ main {
   .containerInput input {
     width: 60%;
     cursor: pointer;
+  }
+
+  .containerImageMain {
+    padding: 20px 16px 0;
+  }
+
+  .containerImageMain img {
+    max-width: 100%;
   }
 }
 
@@ -208,5 +228,13 @@ main {
     cursor: pointer;
     /* margin-bottom: 20px;
     margin-top: 30px; */
+  }
+
+  .containerImageMain {
+    padding: 16px 12px 0;
+  }
+
+  .containerImageMain img {
+    border-radius: 8px;
   }
 }
